@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.background-container {
+  background: linear-gradient(to right, #cffcf1, #ffffff);
+  min-height: 100vh;
+  text-align: center;
+}
+.heading {
+  padding-top: 80px;
+}
+
+.bg-timer-img {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.timer {
+  align-self: center;
+  background-color: #ffffff;
+  height: 150px;
+  width: 150px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 100px;
+  color: #00d9f5;
+  font-size: 30px;
+  font-weight: 700;
+}
