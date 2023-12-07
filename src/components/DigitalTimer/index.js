@@ -4,7 +4,7 @@ import {Component} from 'react'
 import './index.css'
 
 class DigitalTimer extends Component {
-  state = {timerLimitInMinutes: 25, isRunning: false, elapsedSeconds: 0}
+  state = {timerLimitInMinutes: 24, isRunning: false, elapsedSeconds: 0}
 
   handleMinusClick = () => {
     const {timerLimitInMinutes} = this.state
